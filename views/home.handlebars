@@ -1,0 +1,16 @@
+<!-- views/home.handlebars -->
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Lista de Productos</title>
+</head>
+<body>
+  <h1>Lista de Productos</h1>
+  <ul>
+    {{#each products}}
+      <li>{{title}} - Precio: {{price}}</li>
+    {{/each}}
+  </ul>
+</body>
+</html>
